@@ -9,7 +9,7 @@ from startup_analysis import startup_analysis
 st.set_page_config(
     page_title="IND Startup Analysis",
     page_icon="📊",
-    layout="centered",
+    layout="wide",
     # initial_sidebar_state="collapsed",
 )
 

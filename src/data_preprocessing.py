@@ -46,5 +46,7 @@ def generate_clean_data():
     df = df.dropna(subset=['date', 'startup', 'vertical', 'city','investors', 'round', 'amount'])
 
     df['year'] = df['date'].dt.year
+    
+    df['month'] = df['date'].dt.month
 
     df.to_csv('../data/clean_data.csv', index=False)

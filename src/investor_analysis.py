@@ -5,7 +5,7 @@ from data_preprocessing import generate_clean_data
 
 generate_clean_data()
 
-df = pd.read_csv("../data/clean_data.csv")
+df = pd.read_csv("../data/clean_data.csv") # type: ignore
 
 def investor_analysis():
     st.subheader("Investor Analysis")
